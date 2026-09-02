@@ -214,8 +214,24 @@ were transacted in about ten minutes of elapsed time, so neither chart supports 
 claim. Read as a real sprint, the shape is the signature of severe under-commitment.</p>
 <div class="chart"><h3>SLP Sprint 1 &mdash; 37 story points</h3>%s</div>
 <div class="chart"><h3>SLP Sprint 2 &mdash; 39 story points</h3>%s</div>
+
+<h2 class="pb">4. Jira workspace</h2>
+<div class="chart"><h3>Backlog with Epics and User Stories</h3>
+<p>Epic panel showing all seven Epics, 24 User Stories in the backlog, 127 story points
+estimated.</p>%s</div>
+<div class="chart"><h3>Story point assignments</h3>
+<p>Sprint 2 loaded with 7 items totalling 39 points. Story points and priority icons on
+each row, Epic chip on every story, 51 points left in the backlog below.</p>%s</div>
+<div class="chart"><h3>Sprint board &mdash; SLP Sprint 1</h3>
+<p>Active sprint view mid-sprint: 2 To Do, 2 In Progress, 3 Done.</p>%s</div>
+<div class="chart"><h3>Sprint board &mdash; SLP Sprint 2</h3>
+<p>Active sprint view mid-sprint: 4 To Do, 1 In Progress, 2 Done.</p>%s</div>
+<div class="chart"><h3>Sprint completion</h3>%s</div>
 """ % (CSS, epics, img_tag("08-epic-progress.png"),
-       img_tag("06-burndown-sprint1.png"), img_tag("07-burndown-sprint2.png"))
+       img_tag("06-burndown-sprint1.png"), img_tag("07-burndown-sprint2.png"),
+       img_tag("01-backlog-epics-stories.png"), img_tag("02-story-points-sprint2.png"),
+       img_tag("03-sprint1-board.png"), img_tag("04-sprint2-board.png"),
+       img_tag("05-complete-sprint2.png"))
 
 
 def inline(t):
